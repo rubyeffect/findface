@@ -6,22 +6,13 @@ require 'findface/version'
 Gem::Specification.new do |spec|
   spec.name          = "findface"
   spec.version       = Findface::VERSION
-  spec.authors       = ["Sam"]
+  spec.authors       = ["Sandeep Mallela a.k.a Sam"]
   spec.email         = ["opensource@rubyeffect.com", "sandeep@rubyeffect.com"]
 
   spec.summary       = %q{Ruby Gem for Findface API to use it in Ruby on Rails & Sinatra Applications}
   spec.description   = %q{Utility to use FindFace API Face Detection algorithms on media like photos}
   spec.homepage      = "http://blog.rubyeffect.com/category/findface_api/"
   spec.license       = "MIT"
-
-  # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
-  # to allow pushing to a single host or delete this section to allow pushing to any host.
-  # if spec.respond_to?(:metadata)
-  #   spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
-  # else
-  #   raise "RubyGems 2.0 or newer is required to protect against " \
-  #     "public gem pushes."
-  # end
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})

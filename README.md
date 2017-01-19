@@ -1,8 +1,8 @@
 # Findface
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/findface`. To experiment with that code, run `bin/console` for an interactive prompt.
+This is a ruby gem to provide easy implementation of utilities of [FindFace Cloud API](https://findface.pro/en/). The [FindFace Cloud API](https://findface.pro/en/) offers integration with a face detection, verification, and identification platform. This API enables face comparison, and human detection with coordinates and sizes. POST methods are supported, JSON is used for resposes, and HTTP Basic Auth for authentication. FindFace is a Cyprus based software development firm.
 
-TODO: Delete this and the text above, and describe your gem
+
 
 ## Installation
 
@@ -32,7 +32,13 @@ The details on usage of "findface" gem are present at: `http://blog.rubyeffect.c
 
     Findface.api_key = 'YOUR-API-KEY'
 
-3. Use the gem 🙂
+3. Start using the gem 🙂
+
+## TODO
+
+1. Addition of any new endpoints with respect to Findface Cloud API latest changelog.
+2. Support for ruby versions < 2.2.2 .
+3. Writing more test cases.
 
 ## Development
 
