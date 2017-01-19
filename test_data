@@ -1,0 +1,23 @@
+options = {"meta": "Sam Berry",
+"photo": "http://images.indianexpress.com/2016/04/hrithikroshan7592.jpg",
+"galleries": ["gal1", "gal2"]}
+
+Findface::Face.create(options)
+
+      {"results"=>[{"galleries"=>["default"], "id"=>619735, "meta"=>"Sam Berry", "photo"=>"http://images.indianexpress.com/2016/04/hrithikroshan7592.jpg", "photo_hash"=>"4806cd0eb9a531b44f4c1151d4efb047", "thumbnail"=>"https://static.findface.pro/587704a0a43d2465fb6c7301/4806cd0eb9a531b44f4c1151d4efb047_342_115_528_301_thumb.jpg", "timestamp"=>"2017-01-16T05:56:12.523602", "x1"=>342, "x2"=>528, "y1"=>115, "y2"=>301}]}
+
+2.3.3 :004 > Findface::Face.list
+ => {"next_page"=>"/v0/faces?max_id=619735", "prev_page"=>nil, "results"=>[{"galleries"=>["default"], "id"=>619735, "meta"=>"Sam Berry", "photo"=>"http://images.indianexpress.com/2016/04/hrithikroshan7592.jpg", "photo_hash"=>"4806cd0eb9a531b44f4c1151d4efb047", "thumbnail"=>"https://static.findface.pro/587704a0a43d2465fb6c7301/4806cd0eb9a531b44f4c1151d4efb047_342_115_528_301_thumb.jpg", "timestamp"=>"2017-01-16T05:56:12.523602", "x1"=>342, "x2"=>528, "y1"=>115, "y2"=>301}]} 
+2.3.3 :005 > Findface::Gallery.list
+ => {"results"=>["default"]} 
+2.3.3 :006 > Findface::Face.details(619735)
+ => {"galleries"=>["default"], "id"=>619735, "meta"=>"Sam Berry", "photo"=>"http://images.indianexpress.com/2016/04/hrithikroshan7592.jpg", "photo_hash"=>"4806cd0eb9a531b44f4c1151d4efb047", "thumbnail"=>"https://static.findface.pro/587704a0a43d2465fb6c7301/4806cd0eb9a531b44f4c1151d4efb047_342_115_528_301_thumb.jpg", "timestamp"=>"2017-01-16T05:56:12.523602", "x1"=>342, "x2"=>528, "y1"=>115, "y2"=>301} 
+2.3.3 :007 > exit
+
+
+
+options = {
+    meta: "Tesla",
+    photo: "http://www.businesspundit.com/wp-content/uploads/2016/06/Elon-Musk-and-Chore-Fixing-Robots.jpg",
+    galleries: ["TestGallery"]
+}
