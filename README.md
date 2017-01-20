@@ -39,6 +39,14 @@ The details on usage of "findface" gem are present at: `http://blog.rubyeffect.c
 
 3. Start using the gem 🙂
 
+## Documentation
+
+1. [Findface Gem Introduction](http://blog.rubyeffect.com/documentation-for-findface-gem/)
+2. [Findface Face Module Endpoints](http://blog.rubyeffect.com/findface-gem-face-module-endpoints/)
+3. [Findface Gallery Module Endpoints](http://blog.rubyeffect.com/findface-gem-gallery-module-endpoints/)
+4. [Findface Utility Module Endpoints](http://blog.rubyeffect.com/findface-gem-utility-module-endpoints/)
+5. [Findface Gem – Endpoints supporting Paginated results](http://blog.rubyeffect.com/findface-gem-endpoints-supporting-paginated-results/)
+
 ## TODO
 
 1. Addition of any new endpoints with respect to Findface Cloud API latest changelog.
