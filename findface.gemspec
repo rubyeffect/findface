@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Ruby Gem for Findface API to use it in Ruby on Rails & Sinatra Applications}
   spec.description   = %q{Utility to use FindFace API Face Detection algorithms on media like photos}
-  spec.homepage      = "http://blog.rubyeffect.com/category/findface_api/"
+  spec.homepage      = "http://blog.rubyeffect.com/category/findface/"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|

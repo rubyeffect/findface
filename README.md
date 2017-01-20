@@ -1,11 +1,4 @@
 
-
-
-
-
-
-
-
 # Findface
 
 By [Rubyeffect](https://www.rubyeffect.com/).
@@ -40,7 +33,7 @@ The details on usage of "findface" gem are present at: `http://blog.rubyeffect.c
 
     gem 'findface'
 
-2. Set the API key and mode in initializer file (config/initializers/findface.rb)
+2. Set the API key in initializer file (config/initializers/findface.rb)
 
     Findface.api_key = 'YOUR-API-KEY'
 
