@@ -3,7 +3,7 @@
 
 By [Rubyeffect](https://www.rubyeffect.com/).
 
-[![Gem Version](https://badge.fury.io/rb/findface@2x.png)](https://badge.fury.io/rb/findface)
+[![Gem Version](https://badge.fury.io/rb/findface@1x.png)](https://badge.fury.io/rb/findface)
 
 This is a ruby gem to provide easy implementation of utilities of [FindFace Cloud API](https://findface.pro/en/). The [FindFace Cloud API](https://findface.pro/en/) offers integration with a face detection, verification, and identification platform. This API enables face comparison, and human detection with coordinates and sizes. REST calls are supported with JSON responses and Token-Based HTTP authentication. FindFace is a Cyprus based software development firm.
 
@@ -33,7 +33,7 @@ The details on usage of "findface" gem are present at: `http://blog.rubyeffect.c
 
     gem 'findface'
 
-2. Set the API key in initializer file (config/initializers/findface.rb)
+2. Set the API key in initializer file by creating it (config/initializers/findface.rb)
 
     Findface.api_key = 'YOUR-API-KEY'
 
