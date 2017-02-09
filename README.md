@@ -73,7 +73,7 @@ The gem is available as open source under the terms of the [MIT License](http://
 
 ##Authored by
 
-Sandeep Mallela, sandeep@rubyeffect.com
+Sandeep Mallela a.k.a Sam (sandeep@rubyeffect.com)
 
 ## About RubyEffect
 
