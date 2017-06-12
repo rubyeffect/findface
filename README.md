@@ -78,7 +78,7 @@ Sandeep Mallela a.k.a Sam (sandeep@rubyeffect.com)
 ## About RubyEffect
 
 <a href="http://www.rubyeffect.com" target="_blank">
-  <img src="http://blog.rubyeffect.com/wp-content/uploads/2015/05/cropped-re_original_logo.png" alt="RubyEffect">
+  <img src="https://scontent.fhyd2-1.fna.fbcdn.net/v/t1.0-9/11201852_981564441856663_1789938874051519220_n.pnghttps://scontent.fhyd2-1.fna.fbcdn.net/v/t1.0-9/11201852_981564441856663_1789938874051519220_n.png?oh=9157db693c46360436e9bbe4ae89108d&oe=59E8DFD8" alt="RubyEffect">
 </a>
 
 RubyEffect builds intuitive, live and elegant software that solves real world problems. We love open source and it's community.
